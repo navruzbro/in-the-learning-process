@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.2.7"
+djangorestframework = "*"
+drf-yasg = "*"
+setuptools = "*"
+dj-rest-auth = "*"
+django-allauth = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
